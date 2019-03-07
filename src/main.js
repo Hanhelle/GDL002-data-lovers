@@ -20,7 +20,7 @@ const aboutUsButton = document.querySelector('#aboutusbutton');
 const aboutUs = document.querySelector('p');
 const searchBox = document.querySelector('#search');
 const homeButton = document.querySelector('#homebutton');
-
+//const averageCandyButton = 
 
 //Funcion para validar el texto que ingreso el usuario
 const validateSearchInput = () => {

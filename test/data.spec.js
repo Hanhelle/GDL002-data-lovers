@@ -149,3 +149,12 @@ describe('sortData', () => {
     );
     });
   });
+describe('computeStats', () => {
+    it('should be a function', () => {
+     expect(typeof(kantodex.computeStats)).toBe('function');
+    });
+    it('Debería devolver 26 dulces en promedio para tipo Electric', () => {
+      expect(window.kantodex.computeStats(pokemonObj,'Electric')).toBe(26);
+    }
+      );
+    });
